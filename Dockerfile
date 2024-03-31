@@ -1,3 +1,6 @@
+# Provide opencontainers label
+LABEL org.opencontainers.image.source="https://github.com/smp46/dockerImageServer"
+
 # Use the official Nginx image as the base
 FROM nginx:alpine
 
